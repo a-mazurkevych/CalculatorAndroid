@@ -3,18 +3,20 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
+                android:background="@drawable/background"
         >
     <EditText
             android:layout_width="fill_parent"
-            android:layout_height="70dp"
-            android:layout_marginTop="20dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
             android:background="@drawable/edit_text_shape"
             android:id="@+id/editExpression"
             android:cursorVisible="false"
+            android:hint="@string/editExpressionHint"
             android:gravity="center"
             android:inputType="none"
             android:editable="false"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:textStyle="normal"
             android:textColor="#000000"
             android:layout_gravity="top"/>
@@ -30,7 +32,8 @@
                 android:layout_alignParentBottom="true" android:layout_alignParentLeft="false"
                 android:layout_alignParentRight="false" android:layout_alignWithParentIfMissing="false"
                 android:layout_margin="3dp" android:layout_alignParentTop="false"
-                android:layout_centerHorizontal="true">
+                android:layout_centerHorizontal="true" android:alignmentMode="alignBounds"
+                android:background="@android:color/transparent">
 
         <ImageButton
 
