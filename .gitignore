@@ -1,4 +1,4 @@
 #folders ignored
-out/*
+/out/*
 
 #files ignored

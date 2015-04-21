@@ -18,17 +18,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b57f3236-686a-4876-8968-390c783a55e2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Calculator/Calculator.apk" afterPath="$PROJECT_DIR$/out/production/Calculator/Calculator.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Calculator/com/mazaleks/Calculator/Calculator.class" afterPath="$PROJECT_DIR$/out/production/Calculator/com/mazaleks/Calculator/Calculator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Calculator/Calculator.unaligned.apk" afterPath="$PROJECT_DIR$/out/production/Calculator/Calculator.unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Calculator/com/mazaleks/Calculator/R$drawable.class" afterPath="$PROJECT_DIR$/out/production/Calculator/com/mazaleks/Calculator/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Calculator/com/mazaleks/Calculator/R$id.class" afterPath="$PROJECT_DIR$/out/production/Calculator/com/mazaleks/Calculator/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Calculator/com/mazaleks/Calculator/R$integer.class" afterPath="$PROJECT_DIR$/out/production/Calculator/com/mazaleks/Calculator/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Calculator/com/mazaleks/Calculator/R$layout.class" afterPath="$PROJECT_DIR$/out/production/Calculator/com/mazaleks/Calculator/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Calculator/com/mazaleks/Calculator/R$string.class" afterPath="$PROJECT_DIR$/out/production/Calculator/com/mazaleks/Calculator/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Calculator/com/mazaleks/Calculator/R.class" afterPath="$PROJECT_DIR$/out/production/Calculator/com/mazaleks/Calculator/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Calculator.iws" />
