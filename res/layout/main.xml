@@ -3,11 +3,11 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-                android:background="@drawable/background"
+                android:background="@drawable/black_and_white"
         >
     <EditText
             android:layout_width="fill_parent"
-            android:layout_height="80dp"
+            android:layout_height="75dp"
             android:layout_marginTop="30dp"
             android:background="@drawable/edit_text_shape"
             android:id="@+id/editExpression"
@@ -204,10 +204,10 @@
                 android:src="@drawable/equal" android:layout_row="5" android:layout_column="3"
                 android:baselineAlignBottom="false" android:layout_margin="2dp"/>
         <ImageButton
-                android:id="@+id/imButtonCtg"
-                android:onClick="onClickCtg"
+                android:id="@+id/imButtonPower"
+                android:onClick="onClickPower"
                 android:background="@android:color/transparent"
-                android:src="@drawable/ctg"
+                android:src="@drawable/power"
                 android:baselineAlignBottom="false" android:layout_row="5" android:layout_column="4"
                 android:layout_margin="2dp"/>
 

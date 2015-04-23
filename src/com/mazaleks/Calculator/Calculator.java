@@ -7,6 +7,8 @@ import android.text.InputType;
 import android.view.View;
 import android.widget.EditText;
 
+import java.math.BigDecimal;
+
 public class Calculator extends Activity {
     /**
      * Called when the activity is first created.
@@ -42,6 +44,22 @@ public class Calculator extends Activity {
         editExp.getText().insert(pos, exp);
         editExp.setSelection(pos + exp.length() - 1);
     }
+    public void delete(){
+        int pos = editExp.getSelectionEnd();
+        if(pos != 0) {
+            editExp.getText().delete(pos - 1, pos);
+            editExp.setSelection(pos - 1);
+        }
+    }
+    public void calculate(){
+        Expression expr = new Expression(editExp.getText().toString());
+        BigDecimal result = expr.eval();
+        clear();
+        editExp.setText(result.toString());
+        int pos = editExp.getText().length();
+        editExp.setSelection(pos);
+    }
+
     public void clear(){
         editExp.setText("");
     }
@@ -63,7 +81,7 @@ public class Calculator extends Activity {
     }
 
     public void onClickDelete(View view) {
-
+        delete();
     }
 
     public void onClickN7(View view) {
@@ -139,8 +157,10 @@ public class Calculator extends Activity {
     }
 
     public void onClickEqual(View view) {
+        calculate();
     }
 
-    public void onClickCtg(View view) {
+    public void onClickPower(View view) {
+        insert("^");
     }
 }
